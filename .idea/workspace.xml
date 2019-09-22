@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2182c2f8-8a76-4b40-8d63-81d842512ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/template/blog/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-first-blog" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-first-blog/venv/Lib/site-packages/django/contrib/admindocs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog/venv/Lib/site-packages/django/contrib/admindocs/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-first-blog/venv/Scripts/Activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog/venv/Scripts/Activate.ps1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-first-blog/venv/Scripts/activate" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog/venv/Scripts/activate" afterDir="false" />
@@ -19,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/my-first-blog/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog/venv/Scripts/pip.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-first-blog/venv/Scripts/pip3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog/venv/Scripts/pip3.7.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-first-blog/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-blog/venv/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       <updated>1568610238538</updated>
       <workItem from="1568610239735" duration="6097000" />
       <workItem from="1568617557328" duration="631000" />
-      <workItem from="1568869402219" duration="1735000" />
+      <workItem from="1568869402219" duration="8637000" />
     </task>
     <servers />
   </component>

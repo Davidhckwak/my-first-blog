@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Heechan's World</title>
-    </head>
-    <body>
-        <div>
-            <h1><a href="">DJango Heechan Blog</a> </h1>
-        </div>
+{% extends 'blog/base.html' %}
 
-        <div>
-            <p>published: SEP 21 2019, 21:43</p>
-            <h2><a href="">My First Post</a> </h2>
-            <p>Kimnori USA Inventory System</p>
-        </div>
-        
-    <p>Wellcome Dude</p>
-    </body>
+{% block content %}
 
-</html>
+ {% for post in posts %}
+    <div class="post">
+        <div class="date">
+            <p>published: {{ post.published_date }}</p>
+        </div>
+        <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+{% endblock %}
